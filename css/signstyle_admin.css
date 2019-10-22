@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.navbar .collapse .navbar-nav .nav-item a{
+    color: #fff;
+    transition: 0.7s;
+    padding: .9rem 1.0rem;
+    border-left: 2px solid #4E1A3D;
+    border-right: 2px solid #4E1A3D;
+    font-family: 'Oswald', sans-serif;
+
+
+
+}
+
+
+.sign_part{
+
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(../images/blueberries-864628.jpg);
+    background-size: cover;
+    height: 670px;
+    margin: 0 auto;
+    background-position: center;
+    padding-top: 80px;
+
+}
+
+.sign_box{
+    border: 1px solid rgba(0,0,0,0.8);
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 0px 0px 10px #000;
+    border-radius: 10px;
+
+}
+.sign_part .sign_box h1{
+    margin-bottom: 30px;
+    color: aliceblue;
+}
+.sign_part .sign_box .username{
+    background-color: rgba(0,0,0,0.6);
+
+    width: 400px;
+    padding: 10px 10px;
+    border: 1px solid #000;
+    color: #fff;
+}
+.sign_part .sign_box .password{
+background-color: rgba(0,0,0,0.6);    width: 400px;
+    padding: 10px 10px;
+    border: 1px solid #000;
+    color: #fff;
+
+}
+
+
+.sign_part .sign_box .submit{
+    padding: 10px 150px;
+    	background-color:  #4E1A3D;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid  #4E1A3D;
+    border-radius: 10px;
+    font-weight: 600;
+/*#00b894;*/
+    transition: 0.7s;
+}
+.sign_part .sign_box .submit:hover{
+    background-color: rgb(183, 25, 131);
+    border: 1px solid rgb(183, 25, 131);
+    box-shadow: 0px 0px 10px rgb(183, 25, 131);
+    color: #fff;
+}
+
+
+
+
+
+
+

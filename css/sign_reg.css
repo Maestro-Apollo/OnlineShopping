@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+
+.reg_part {
+
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../images/blueberries-870514.jpg);
+    background-size: cover;
+    height: 670px;
+    margin: 0 auto;
+    background-position: center;
+    padding-top: 30px;
+
+}
+
+.reg_box {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    width: 500px;
+    margin: 0 auto;
+    padding: 50px;
+    box-shadow: 0px 0px 10px #000;
+    border-radius: 10px;
+
+}
+input[type="file"] {
+    display: none;
+}
+
+.up_img{
+    color: #fff;
+    padding: 10px 60px;
+    background-color: #4E1A3D;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.7s;
+}
+.up_img:hover{
+    background-color: rgb(183, 25, 131);
+}
+
+.reg_part .reg_box h1 {
+    margin-bottom: 30px;
+    color: aliceblue;
+}
+.reg_part .reg_box .number{
+    background-color: rgba(0, 0, 0, 0.6);
+
+    width: 400px;
+    padding: 10px 10px;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+.reg_part .reg_box .username {
+    background-color: rgba(0, 0, 0, 0.6);
+
+    width: 400px;
+    padding: 10px 10px;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+.reg_part .reg_box .password {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 400px;
+    padding: 10px 10px;
+    border: 1px solid #000;
+    color: #fff;
+
+}
+
+.reg_part .reg_box .email {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 400px;
+    padding: 10px 10px;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+.reg_part .reg_box .gender {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 200px;
+    padding: 10px 10px;
+    border: 1px solid #000;
+    color: #fff;
+}
+
+.reg_part .reg_box .submit {
+    padding: 10px 150px;
+    background-color: #4E1A3D;
+    color: #fff;
+    text-transform: uppercase;
+    border: 1px solid #4E1A3D;
+    border-radius: 10px;
+    font-weight: 600;
+    /*#00b894;*/
+    transition: 0.7s;
+}
+
+.reg_part .reg_box .submit:hover {
+    background-color: rgb(183, 25, 131);
+    border: 1px solid rgb(183, 25, 131);
+    box-shadow: 0px 0px 10px rgb(183, 25, 131);
+    color: #fff;
+}
+
+.reg_part .reg_box .plain_txt {
+    color: #fff;
+}
+
+.reg_part .reg_box .sign_up {
+    color: rgb(245, 1, 165);
+}
+
+.reg_part .reg_box .sign_up {
+    text-decoration: none;
+}
